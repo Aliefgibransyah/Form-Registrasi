@@ -1,0 +1,109 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset ="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Gohool Tutorials">
+     <meta name="author" content="John Doe">
+     <title>Styling Forms</title>
+     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+     
+<style>
+    
+    html, * {
+        box-sizing: border-box;
+    }
+    body, p {
+            font-family: 'Roboto', sans-serif;
+            color:#fff;
+            margin: 0;
+    }
+    
+    
+    
+    .background {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('sports.jpeg');
+        width:100%;
+        background-size: cover;
+        background-position: center center;
+        overflow: auto;
+        height: 1080px;
+        text-align: center;
+        
+    }
+    
+    .form {
+        width:50%;
+        margin:0 auto;
+        background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5));
+        border-radius:10px;
+        border:2px solid #fff;
+        padding:2em;
+        overflow: auto;
+        position: relative;
+        top:5em;
+    }
+    
+    input {
+        background:#ffffff;
+        height:3em;
+        width:100%;
+        border-radius: 5px;
+        border:none;
+        padding:0 10px;
+        margin-top:10px;        
+    }
+    
+    .button-blue {
+        background: #3898ff;
+        width: 100%;
+        margin:15px 0;
+        height: 3em;
+        border:none;
+        border-radius:100px;
+        color:#fff;
+    }
+   
+</style>         
+         
+     
+</head>
+ 
+ 
+ <body>
+
+   <div class="background">
+       <div class="form">
+           <form>
+                    <h3>Form Fields</h3>
+
+               <input type="email" name="email" id="email1" placeholder="Email Address">
+               <input type="password" name="password" id="pass1" placeholder="Password (case sensitive)">
+               
+               <button href="#" type="submit" class="button-blue">
+                   Log In
+               </button>
+               
+               <hr>
+               
+               <button href="#" type="submit" class="button-blue">
+                   Sign Up
+               </button>
+           </form>
+       </div>
+   </div>
+      
+ </body>
+ 
+ 
+</html>
+
+
+
+
+
+
